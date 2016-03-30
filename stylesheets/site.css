@@ -61,7 +61,7 @@ font-family:'fontello';src:url("../fonts/fontello.eot?59185756");src:url("../fon
   }
 }.header .header-nav{
   align-items:center;display:flex;justify-content:space-between;
-  height:2.8rem
+  height:3.8rem
 }
 @media screen and (max-width: 53.75rem){
   .responsive .header .header-nav{
@@ -618,13 +618,9 @@ body.deprecations #content,body.deprecations #subcontent{
 .small-button.black{
   background-image:url("/images/small-black-button.png")
 }
-.button-hero{
-  margin:30px auto
-}
-a.edit-page{
-  font-size:18px;color:#444;margin:0;width:24px;height:18px;display:inline-block;float:right;overflow:hidden;opacity:0.4
-}
-a.edit-page:hover{
-  opacity:1;
-  border-bottom:0
+h1.title{
+  font-size: 400%;
+  margin-top: 20px;
+  margin-right: 50px;
+  color: #181339;
 }
