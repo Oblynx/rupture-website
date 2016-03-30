@@ -116,18 +116,18 @@ font-family:'fontello';src:url("../fonts/fontello.eot?59185756");src:url("../fon
   margin-left: 70px;
   vertical-align: baseline;
 }.CC-logo a{
-  height:40px;
-  width:113px;
+  height:45px;
+  width:145px;
   background:url("../images/cc-by_logo.png") no-repeat;
   display:block;
-  margin-left: 30px;
+  margin-left: 60px;
   margin-top:-30px;
 }.blackhat-logo a{
-  height:40px;
-  width:113px;
-  background:url("../images/black-hat-asia-22379-1.jpg") no-repeat;
+  height:45px;
+  width:150px;
+  background:url("../images/black-hat-asia-22379-1.png") no-repeat;
   display:block;
-  margin-left: 30px;
+  margin-right: 60px;
   margin-top:-30px;
 }
 @media screen and (max-width: 53.75rem){
@@ -190,7 +190,7 @@ font-family:'fontello';src:url("../fonts/fontello.eot?59185756");src:url("../fon
     display:block
   }
 }.footer .footer-info{
-  color:#999;font-size:11px;line-height:24px;font-weight:600;margin:0.875rem 0;text-transform:uppercase
+  color:#999;font-size:0px;line-height:24px;font-weight:600;margin:0.875rem 0;text-transform:uppercase
 }
 .footer .footer-info{
   flex:0 0 18em;text-align:left
