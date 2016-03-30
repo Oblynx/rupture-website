@@ -145,7 +145,9 @@ font-family:'fontello';src:url("../fonts/fontello.eot?59185756");src:url("../fon
     display:block
   }
 }.header-logo a{
-  height:40px;width:100px;background:url("../images/ember-logo.svg") no-repeat;display:block;margin:-15px auto 0 0
+  height:40px;width:100px;background:url("../images/rupture_small_transparent.png") no-repeat;display:block;margin:-15px auto 0 0
+}.CC-logo a{
+  height:30px;width:30px;background:url("../images/cc_by_sa_logo.png") no-repeat;display:block;margin:-15px auto 0 0
 }
 @media screen and (max-width: 53.75rem){
   .responsive .header-logo a{
