@@ -27,14 +27,14 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
   display:block
 }
 /*! HiDPI v2.0.1 | MIT License | git.io/hidpi */@font-face{
-font-family:'fontello';src:url("../fonts/fontello.eot?59185756");src:url("../fonts/fontello.eot?59185756#iefix") format("embedded-opentype"),url("../fonts/fontello.woff2?59185756") format("woff2"),url("../fonts/fontello.woff?59185756") format("woff"),url("../fonts/fontello.ttf?59185756") format("truetype"),url("../fonts/fontello.svg?59185756#fontello") format("svg");font-weight:normal;font-style:normal
+font-family: 'Ubuntu', sans-serif;font-weight:normal;font-style:normal
 }
 [class^="icon-"]:before,[class*=" icon-"]:before{
-  font-family:"fontello";font-style:normal;font-weight:normal;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;
+  font-family: 'Ubuntu', sans-serif;font-style:normal;font-weight:normal;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale
 }
 @font-face{
-  font-family:'Lato';font-style:normal;font-weight:400;src:local("Lato Regular"),local("Lato-Regular"),url("/fonts/Lato-Regular.woff") format("woff")
+  font-family: 'Ubuntu', sans-serif;font-style:normal;font-weight:400;
 }
 .header-nav.container{
   width:960px;padding:0 1rem;list-style-type:none;margin:auto
@@ -296,7 +296,7 @@ body.index #download .info,body.about #download .info{
   display:table-cell
 }
 .tabs>ul li a{
-  display:block;border-top:solid 1px #fafafa;border-right:solid 1px #e6e4e3;background-color:#f3f3f3;background-image:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YzZjNmMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ViZWJlYiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');background-size:100%;background-image:-moz-linear-gradient(90deg, #f3f3f3, #ebebeb);background-image:-webkit-linear-gradient(90deg, #f3f3f3, #ebebeb);background-image:linear-gradient(0deg, #f3f3f3, #ebebeb);padding:0.5em 1em;text-align:center;font-weight:normal;color:#443331;font-family:'Helvetica Neue'
+  display:block;border-top:solid 1px #fafafa;border-right:solid 1px #e6e4e3;background-color:#f3f3f3;background-image:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YzZjNmMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ViZWJlYiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');background-size:100%;background-image:-moz-linear-gradient(90deg, #f3f3f3, #ebebeb);background-image:-webkit-linear-gradient(90deg, #f3f3f3, #ebebeb);background-image:linear-gradient(0deg, #f3f3f3, #ebebeb);padding:0.5em 1em;text-align:center;font-weight:normal;color:#443331;font-family: 'Ubuntu', sans-serif;
 }
 .tabs>ul li a:hover{
   background-color:#ebebeb;background-image:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ViZWJlYiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YzZjNmMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');background-size:100%;background-image:-moz-linear-gradient(90deg, #ebebeb, #f3f3f3);background-image:-webkit-linear-gradient(90deg, #ebebeb, #f3f3f3);background-image:linear-gradient(0deg, #ebebeb, #f3f3f3);color:black;border-bottom:none
@@ -309,7 +309,7 @@ body.index #download .info,body.about #download .info{
   box-sizing:border-box
 }
 body{
-  background-color:#faf4f1;margin:0;padding:0;font-family:'Helvetica Neue', Helvetica, Arial, Sans-Serif;font-size:14px;line-height:1.4em;color:#444444;font-weight:normal;-webkit-font-smoothing:antialiased
+  background-color:#faf4f1;margin:0;padding:0;font-family: 'Ubuntu', sans-serif;font-size:14px;line-height:1.4em;color:#444444;font-weight:normal;-webkit-font-smoothing:antialiased
 }
 a{
   color:#f23818;
@@ -325,7 +325,7 @@ strong{
   font-weight:bold
 }
 h1,h2,h3,h4,h5,h6{
-  text-transform:uppercase;font-family:'Maven Pro';font-weight:bold
+  text-transform:uppercase;font-family: 'Ubuntu', sans-serif;font-weight:bold
 }
 h1 code,h2 code,h3 code,h4 code,h5 code,h6 code{
   text-transform:none
@@ -341,7 +341,7 @@ h2{
   font-size:22px;margin:.83em 0
 }
 h2,h3{
-  font-family:'Maven Pro';font-weight:bold;color:#252525
+  font-family: 'Ubuntu', sans-serif;font-weight:bold;color:#252525
 }
 h3{
   font-size:18px
@@ -396,7 +396,7 @@ p{
   line-height:26px;margin:18px 0 0;display:inline-block
 }
 #header #nav li a{
-  font-family:'Maven Pro';font-weight:bold;font-size:13px;text-transform:uppercase;color:#faf2ee;text-shadow:rgba(0,0,0,0.3) 0px 1px 0px;display:block;padding:0px 1em;height:26px;line-height:26px;text-decoration:none;border:1px solid transparent
+  font-family: 'Ubuntu', sans-serif;font-weight:bold;font-size:13px;text-transform:uppercase;color:#faf2ee;text-shadow:rgba(0,0,0,0.3) 0px 1px 0px;display:block;padding:0px 1em;height:26px;line-height:26px;text-decoration:none;border:1px solid transparent
 }
 #header #nav li a:hover{
   color:#ffffff
@@ -407,28 +407,6 @@ p{
 #header #nav li.active a:hover{
   color:black;
   background-color:rgba(0,0,0,0.17)
-}
-#header #search form input.st-search-input{
-  margin-left:12px;font-size:100%;padding:2px 9px 2px 27px;height:26px;background-position:7px 6px;width:150px
-}
-#header #github{
-  position:absolute;right:7px;
-  top:17px
-}
-#header #github a{
-  font-family:'Maven Pro';font-weight:bold;font-size:12px;text-transform:uppercase;color:#faf2ee;text-shadow:rgba(0,0,0,0.3) 0px 1px 0px;display:block;padding:0px 1em 0 0.5em;height:28px;line-height:28px;background-color:#ff6e56;*zoom:1;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFF6E56', endColorstr='#FFED4F35');background-image:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNmU1NiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VkNGYzNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');background-size:100%;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff6e56), color-stop(100%, #ed4f35));background-image:-moz-linear-gradient(top, #ff6e56 0%, #ed4f35 100%);background-image:-webkit-linear-gradient(top, #ff6e56 0%, #ed4f35 100%);background-image:linear-gradient(to bottom, #ff6e56 0%, #ed4f35 100%);border:1px solid #a93926;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow:inset rgba(255,255,255,0.17) 0 1px 1px;-webkit-box-shadow:inset rgba(255,255,255,0.17) 0 1px 1px;box-shadow:inset rgba(255,255,255,0.17) 0 1px 1px
-}
-#header #github a img{
-  float:left;margin-top:7px;margin-right:6px;
-  display:block
-}
-#header #github a:hover{
-  color:#ffffff;
-  background:#f86c55
-}
-#header #github .icon-fork{
-  font-size:1.4em;margin-left:0;
-  vertical-align:middle
 }
 #content-wrapper{
   overflow:hidden;*zoom:1;width:960px;padding:0px 0px 20px 0px;margin:0 auto;position:relative;
@@ -470,19 +448,17 @@ p{
   height:90px;
   overflow:hidden;
   border-bottom:none;
+  margin-left: 20px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx){
   .about-header-text{
     background-image:url("/images/about/header-text_x2.png");background-size:534px 107px
   }
 }#download{
-  width:280px;margin:0 auto;position:relative
+  width:220px;margin:0 auto;position:relative
 }
 #download #download-ember,#download #download-starter-kit{
   text-align:center;margin:4em auto 0 auto
-}
-#download #download-ember{
-  left:0
 }
 #download #download-ember .button{
   margin:3px auto 6px;font-size:13px
@@ -527,7 +503,9 @@ p{
   *zoom:1
 }
 .features.section .feature{
-  width:220px;float:left;margin-left:60px;
+  width:220px;
+  float:left;
+  margin-left:65px;
   margin-right:20px
 }
 .features.section .feature img{
@@ -567,7 +545,7 @@ body.deprecations #content,body.deprecations #subcontent{
   margin-top:38px
 }
 #footer{
-  min-width:960px;margin-top:60px;padding:25px 0;border-top:1px solid #e5dbd6;background-color:#f2ece9;overflow:hidden;font-family:'Maven Pro';font-weight:bold
+  min-width:960px;margin-top:60px;padding:25px 0;border-top:1px solid #e5dbd6;background-color:#f2ece9;overflow:hidden;font-family: 'Ubuntu', sans-serif;font-weight:bold
 }
 #footer #footer-wrapper{
   width:960px;margin:0 auto;position:relative;overflow:hidden;*zoom:1
@@ -612,7 +590,7 @@ body.deprecations #content,body.deprecations #subcontent{
   margin-left:-60px
 }
 .button{
-  display:block;width:220px;height:40px;font-family:'Maven Pro';font-weight:bold;text-transform:uppercase;text-decoration:none;line-height:40px;font-size:14px;color:#f6ece8;text-align:center;text-shadow:rgba(0,0,0,0.3) 0 1px 0
+  display:block;width:230px;height:45px;font-family: 'Ubuntu', sans-serif;font-weight:bold;text-transform:uppercase;text-decoration:none;line-height:40px;font-size:16px;color:#f6ece8;text-align:center;text-shadow:rgba(0,0,0,0.3) 0 1px 0
 }
 .button.orange{
   border:1px solid #cb6352;border-top-color:#ea7a68;border-bottom-color:#a04332;*zoom:1;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFE845A', endColorstr='#FFD14E37');background-image:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlODQ1YSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2QxNGUzNyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');background-size:100%;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fe845a), color-stop(100%, #d14e37));background-image:-moz-linear-gradient(top, #fe845a, #d14e37);background-image:-webkit-linear-gradient(top, #fe845a, #d14e37);background-image:linear-gradient(to bottom, #fe845a, #d14e37);-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.35);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.35);box-shadow:inset 0 1px 0 rgba(255,255,255,0.35)
@@ -633,7 +611,7 @@ body.deprecations #content,body.deprecations #subcontent{
   background-position:0 -92px;text-shadow:rgba(0,0,0,0.3) 0 -1px 0
 }
 .small-button{
-  width:74px;height:22px;font-family:'Maven Pro';font-weight:normal;color:#ffffff;line-height:24px;text-transform:uppercase;text-shadow:rgba(0,0,0,0.3) 0 1px 0
+  width:74px;height:22px;font-family: 'Ubuntu', sans-serif;font-weight:normal;color:#ffffff;line-height:24px;text-transform:uppercase;text-shadow:rgba(0,0,0,0.3) 0 1px 0
 }
 .small-button.orange{
   background-image:url("/images/small-orange-button.png")
@@ -649,5 +627,15 @@ h1.title{
   text-shadow: 1px 1px 12px #dddddd;
 }
 img.feature_images{
-  max-width: 100%
+  max-width: 100%;
+  height: 200px;
+}
+iframe#screencast{
+  width: 560px;
+  height: 315px;
+}
+div#screencast{
+  width: 560px;
+  height: 315px;
+  margin: auto;
 }
