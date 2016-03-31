@@ -61,7 +61,7 @@ font-family: 'Ubuntu', sans-serif;font-weight:normal;font-style:normal
   }
 }.header .header-nav{
   align-items:center;display:flex;justify-content:space-between;
-  height:5.0rem
+  height:6.0rem
 }
 @media screen and (max-width: 53.75rem){
   .responsive .header .header-nav{
@@ -109,11 +109,12 @@ font-family: 'Ubuntu', sans-serif;font-weight:normal;font-style:normal
     display:block
   }
 }.header-logo a{
-  height:120px;
-  width:214px;
+  height:150px;
+  width:150px;
   background: url("../images/eggrupture_small.png") no-repeat;
   display:block;
-  margin-left: 70px;
+  margin-left: 00px;
+  margin-top: 20px;
   vertical-align: baseline;
 }.CC-logo a{
   height:45px;
@@ -622,9 +623,9 @@ body.deprecations #content,body.deprecations #subcontent{
 h1.title{
   font-size: 450%;
   margin-top: 20px;
-  margin-right: 120px;
-  color: #ccccbb;
-  text-shadow: 1px 1px 12px #dddddd;
+  margin-right: 550px;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #dddddd;
 }
 img.feature_images{
   max-width: 100%;
