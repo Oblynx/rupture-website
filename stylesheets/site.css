@@ -137,6 +137,14 @@ font-family: 'Ubuntu', sans-serif;font-weight:normal;font-style:normal
   margin-right: 60px;
   margin-top:-30px;
 }
+.ERC-logo a{
+  height:120px;
+  width:120px;
+  background:url("../images/LOGO-ERC_small.png") no-repeat;
+  display:block;
+  margin-right: 60px;
+  margin-top:-30px;
+}
 @media screen and (max-width: 53.75rem){
   .responsive .header-logo a{
     margin-left:auto
@@ -679,4 +687,7 @@ div.ember-attribution{
 .ember-attribution p{
   text-align: center;
   font-size: 120%
+}
+p.left-offset{
+  margin: 1em 0 0 55px;
 }
