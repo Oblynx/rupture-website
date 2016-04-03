@@ -113,7 +113,7 @@ font-family: 'Ubuntu', sans-serif;font-weight:normal;font-style:normal
   width:150px;
   background: url("../images/eggrupture_small.png") no-repeat;
   display:block;
-  margin-left: 00px;
+  margin-left: 20px;
   margin-top: 20px;
   vertical-align: baseline;
 }.CC-logo a{
@@ -123,7 +123,13 @@ font-family: 'Ubuntu', sans-serif;font-weight:normal;font-style:normal
   display:block;
   margin-left: 60px;
   margin-top:-30px;
-}.blackhat-logo a{
+}
+.header_menu_item a{
+  font-size: 150%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.blackhat-logo a{
   height:45px;
   width:150px;
   background:url("../images/black-hat-asia-22379-1.png") no-repeat;
@@ -623,7 +629,7 @@ body.deprecations #content,body.deprecations #subcontent{
 h1.title{
   font-size: 450%;
   margin-top: 20px;
-  margin-right: 550px;
+  margin-right: 250px;
   color: #ffffff;
   text-shadow: 1px 1px 2px #dddddd;
 }
@@ -639,4 +645,38 @@ div#screencast{
   width: 560px;
   height: 315px;
   margin: auto;
+}
+img.center{
+  align: middle;
+}
+div.rupture-logo{
+  background-image: url("../images/eggrupture_med.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  position: relative;
+  height: 300px;
+  margin-top: 20px;
+}
+div.authors ul{
+  vertical-align: middle;
+  display: table;
+  margin: 0 auto;
+  list-style-type: circle;
+}
+div.authors h2{
+  display: block;
+  font-size: 1.3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+div.ember-attribution{
+  margin-top: 50px;
+}
+.ember-attribution p{
+  text-align: center;
+  font-size: 120%
 }
